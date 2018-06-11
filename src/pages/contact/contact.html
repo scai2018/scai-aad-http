@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Follow us on Twitter</ion-list-header>
+    <ion-item>
+      <ion-icon name="ionic" item-start></ion-icon>
+      @ionicframework
+    </ion-item>
+  </ion-list>
+  <ion-list>
+
+    <ion-item>
+      <ion-label fixed>Username</ion-label>
+      <ion-input [(ngModel)]="username" type="text" ></ion-input>
+    </ion-item>
+ 
+    <ion-item>
+      <ion-label fixed>Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+ 
+  </ion-list>
+  <button ion-button full (click)="signIn()">Sign In</button>
+</ion-content>
