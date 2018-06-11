@@ -8,7 +8,7 @@ import { AuthProvider } from '../../providers/auth/auth';
 })
 export class ContactPage {
   username:string = "steve.cai@citizant.com";
-  password:string = "my.justin.2001";
+  password:string = "YOUR_PASSWORD";
 
   constructor(public navCtrl: NavController, private auth:AuthProvider) {
 
